@@ -3,7 +3,7 @@ import { NavBar, Icon,List,InputItem,WhiteSpace,Button, WingBlank,SearchBar,Caro
 const arr=['桌','床','椅','几','柜','书架','沙发','家居饰品','户外家具','全部分类'];
 const data = Array.from(new Array(10)).map((_val, i) => ({
     // icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
-    icon:'../image/tu'+(i+1)+'.png',
+    icon:'../imagex/tu'+(i+1)+'.png',
      text: arr[i],
   }));
 export default class AppStore extends Component {
