@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import { NavBar, Icon, Tabs, WhiteSpace } from 'antd-mobile';
+import { NavBar, Icon, WhiteSpace } from 'antd-mobile';
 import { Carousel, WingBlank } from 'antd-mobile';
-import { createRequireFromPath } from 'module';
-  var i=0;
 export default class AppHome extends Component {
     state = {
         data: ['1', '2'],

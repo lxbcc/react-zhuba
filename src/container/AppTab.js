@@ -36,7 +36,7 @@ export default class AppTab extends React.Component {
                   width: "22px",
                   height: "22px",
                   background:
-                    "url(../imagex/shouye.png) center center /  21px 21px no-repeat"
+                    "url(imagex/shouye.png) center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -46,7 +46,7 @@ export default class AppTab extends React.Component {
                   width: "22px",
                   height: "22px",
                   background:
-                    "url(../imagex/shouye.png) center center /  21px 21px no-repeat"
+                    "url(imagex/shouye.png) center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -66,7 +66,7 @@ export default class AppTab extends React.Component {
                   width: "22px",
                   height: "22px",
                   background:
-                    "url(../imagex/linggan.png) center center /  21px 21px no-repeat"
+                    "url(imagex/linggan.png) center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -76,7 +76,7 @@ export default class AppTab extends React.Component {
                   width: "22px",
                   height: "22px",
                   background:
-                    "url(../imagex/linggan.png) center center /  21px 21px no-repeat"
+                    "url(imagex/linggan.png) center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -98,7 +98,7 @@ export default class AppTab extends React.Component {
                   width: "22px",
                   height: "22px",
                   background:
-                    "url(../imagex/shangcheng.png) center center /  21px 21px no-repeat"
+                    "url(imagex/shangcheng.png) center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -108,7 +108,7 @@ export default class AppTab extends React.Component {
                   width: "22px",
                   height: "22px",
                   background:
-                    "url(../imagex/shangcheng.png) center center /  21px 21px no-repeat"
+                    "url(imagex/shangcheng.png) center center /  21px 21px no-repeat"
                 }}
               />
             }
@@ -127,11 +127,11 @@ export default class AppTab extends React.Component {
           <TabBar.Item
             icon={{
               uri:
-                "../imagex/wode.png"
+                "imagex/wode.png"
             }}
             selectedIcon={{
               uri:
-                "../imagex/wode.png"
+                "imagex/wode.png"
             }}
             title="我的"
             key="my"

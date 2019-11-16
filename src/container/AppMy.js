@@ -5,7 +5,7 @@ export default class AppMy extends Component {
         return (
             <div>
                 <h3>It's mine</h3>
-                <img src={require('../image/ll.jpg')} style={{width:'100%'}}/>
+                <img src={require('../image/ll.jpg')} style={{width:'100%'}} alt=""/>
             </div>
         )
     }
