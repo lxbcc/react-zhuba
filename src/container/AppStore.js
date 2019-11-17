@@ -3,7 +3,7 @@ import { NavBar, Icon,WhiteSpace,WingBlank,SearchBar,Carousel,Grid} from 'antd-m
 const arr=['桌','床','椅','几','柜','书架','沙发','家居饰品','户外家具','全部分类'];
 const data = Array.from(new Array(10)).map((_val, i) => ({
     // icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
-    icon:'imagex/tu'+(i+1)+'.png',
+    icon:'imagex/t'+(i+1)+'.png',
      text: arr[i],
   }));
 export default class AppStore extends Component {
@@ -24,7 +24,8 @@ export default class AppStore extends Component {
                         onLeftClick={() => console.log('onLeftClick')}
                         rightContent={[
                             //<Icon key="0" type="search" style={{ marginRight: '16px' }} />,
-                            <Icon key="1" type="ellipsis" />,
+                            //<Icon key="1" type="ellipsis" />,
+                            <img src={require('../image/gche.png')} alt="" style={{width:'25%'}}/>
                         ]}
                         >商城</NavBar>
                         <SearchBar
@@ -57,7 +58,17 @@ export default class AppStore extends Component {
                     ))}
                     </Carousel>
                     {/* <div className="sub-title">No border</div> */}
-                    <Grid data={data} hasLine={false} columnNum={5}/>
+                    <Grid data={data} hasLine={false} columnNum={5}
+                        renderItem={dataItem => (
+                            <div>
+                            <img src={dataItem.icon} style={{ width: '50%', height: '50%' }} alt="" />
+                            <div style={{fontSize: '10px'}}>
+                                    <span>{dataItem.text}</span>
+                                </div>
+                            </div>
+                            
+                        )}
+                    />
                     <WhiteSpace/>
                     <WingBlank>
                     <div>
